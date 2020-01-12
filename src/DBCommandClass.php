@@ -2,6 +2,8 @@
 
 namespace Claxifieds\Database;
 
+use Claxifieds\Logger\LogDatabase;
+
     /*
      * Copyright 2014 Osclass
      *
@@ -17,8 +19,6 @@ namespace Claxifieds\Database;
      * See the License for the specific language governing permissions and
      * limitations under the License.
      */
-
-    use LogDatabase;
 
     /**
      * Database command object
@@ -1931,5 +1931,3 @@ namespace Claxifieds\Database;
             return $this->errorDesc;
         }
     }
-
-    /* file end: ./oc-includes/osclass/classes/database/DBCommandClass.php */

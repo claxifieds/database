@@ -379,5 +379,3 @@ namespace Claxifieds\Database;
             return $fieldNames;
         }
 	}
-
-    /* file end: ./oc-includes/osclass/classes/database/DBRecordsetClass.php */

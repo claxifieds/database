@@ -398,6 +398,3 @@ namespace Claxifieds\Database;
             return $row['count'];
         }
     }
-
-    /* file end: ./oc-includes/osclass/classes/database/DAO.php */
-

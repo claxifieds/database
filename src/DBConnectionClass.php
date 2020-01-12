@@ -2,7 +2,7 @@
 
 namespace Claxifieds\Database;
 
-use LogDatabase;
+use Claxifieds\Logger\LogDatabase;
 use mysqli;
 
 /*
