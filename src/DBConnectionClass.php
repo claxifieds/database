@@ -285,8 +285,7 @@ use mysqli;
                 if(MULTISITE) {
                     return false;
                 }
-
-                require_once LIB_PATH . 'osclass/helpers/hErrors.php';
+                
                 $title    = 'Osclass &raquo; Error';
                 $message  = 'Osclass database server is not available. <a href="https://osclass.discourse.group/">Need more help?</a></p>';
                 osc_die($title, $message);
@@ -309,7 +308,6 @@ use mysqli;
                     return false;
                 }
 
-                require_once LIB_PATH . 'osclass/helpers/hErrors.php';
                 $title    = 'Osclass &raquo; Error';
                 $message  = 'Osclass database is not available. <a href="https://osclass.discourse.group/">Need more help?</a></p>';
                 osc_die($title, $message);
